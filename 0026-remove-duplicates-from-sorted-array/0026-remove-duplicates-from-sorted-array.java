@@ -7,7 +7,6 @@ class Solution {
                 j++;
             }
         }
-        
         nums[j] = nums[nums.length-1];
         return j+1;
     }
